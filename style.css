@@ -1,0 +1,129 @@
+/* CSS reset */
+
+@font-face {
+  font-family: logo;
+  src: url(./fonts/DancingScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*************** GLOBAL ***************/
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: poppins;
+  padding-top: 3.5rem;
+  color: #3f2305;
+}
+
+/*************** NAVBAR ***************/
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+  padding: 0px;
+}
+
+nav.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.container-fluid {
+  background-color: #f9e0bb;
+}
+
+.navbar-toggler {
+  font-size: 1rem;
+  border: none;
+}
+
+.navbar-brand {
+  font-family: logo;
+  font-size: 1.6rem;
+}
+
+/* odstranění borderu při kliknutí*/
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+/* odstranění otevřeného borderu při kliknutí*/
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+/*************** MAIN CONTENT ***************/
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Náš příběh */
+#introduction-text {
+  text-align: justify;
+  padding: 2rem;
+  line-height: 1.5;
+}
+
+/* Menu */
+h2.menu {
+  padding-top: 2rem;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card ul {
+  padding-left: 0;
+}
+
+.card img {
+  object-fit: cover;
+}
+
+/* Rezervace */
+form {
+  padding-bottom: 2rem;
+}
+
+.btn.btn-primary {
+  background-color: #3f2305;
+  border: #3f2305;
+}
+
+/*************** BREAKPOINTS ***************/
+
+@media (max-width: 760px) {
+  html {
+    font-size: 17px;
+  }
+}

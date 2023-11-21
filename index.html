@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/favicoin.png" />
+    <title>Café</title>
+  </head>
+  <body>
+    <!------------------ NAVBAR ------------------>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-3 me-5" href="#carouselExampleIndicators">Café</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#introduction-text">Domů
+            </a>
+            <a class="nav-link" href="#menu">Menu</a>
+            <a class="nav-link" href="#contact">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!------------------ HOME ------------------>
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/home-1.jpg" class="d-block w-100" alt="photo of cafe" />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/home-2.jpg" class="d-block w-100" alt="photo of coffee" />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/home-3.jpg" class="d-block w-100" alt="photo of cappuccino" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!------------------ O nás ------------------>
+      <div id="introduction-text">
+        <h2>Náš Příběh</h2>
+        <p>
+          Naše kavárna není jen o kávě. Je to o kouzlu, vůni čerstvě pražených
+          zrn a radosti z každého šálku. Za každým naším nápadem stojí láska k
+          umění, kreativita a chuť sdílet jedinečnou atmosféru s vámi. Naše
+          příběhy se píšou s každým douškem a výtiskem naší kávy.
+          <br />
+          Kvalita za každým šálkem. Pečlivě vybíráme kávové zrno a dbáme na
+          kvalitu při každém kroku přípravy. Každý šálek, který servírujeme, je
+          výsledkem pečlivé práce, péče a lásky k dobré kávě. <br />
+          Kromě výborné kávy nabízíme širokou škálu domácích dezertů, které jsou
+          dokonalým doplňkem ke každému šálku. Užijte si četbu své oblíbené
+          knihy nebo se setkejte s přáteli v našem útulném prostředí.
+        </p>
+      </div>
+      <!------------------ Menu ------------------>
+    <div id="menu">
+      <h2 class="menu">Menu</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/menu-1.jpg"
+              width="308px"
+              height="470px"
+              class="card-img-top"
+              alt="cofee image"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Kávy</h3>
+              <ul>
+                <li>Espresso: 45 Kč</li>
+                <li>Cappuccino: 55 Kč</li>
+                <li>Latte: 60 Kč</li>
+                <li>Ledová káva: 70 Kč</li>
+                <li>Espresso Tonic: 65 Kč</li>
+                <li>Flat White: 75 Kč</li>
+                <li>Americano: 50 Kč</li>
+                <li>Lungo: 55 Kč</li>
+                <li>Mocha: 65 Kč</li>
+                <li>Ristretto: 50 Kč</li>
+                <li>Macchiato: 55 Kč</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/menu-2.jpg"
+              width="308px"
+              height="470px"
+              class="card-img-top"
+              alt="dessert image"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Dezerty</h3>
+              <ul>
+                <li>Tiramisu: 75 Kč</li>
+                <li>Cheesecake: 70 Kč</li>
+                <li>Čokoládový dort: 80 Kč</li>
+                <li>Jahodový zákusek: 70 Kč</li>
+                <li>Ořechový zákusek: 65 Kč</li>
+                <li>Vanilkový pudink: 60 Kč</li>
+                <li>Malinový pohár: 85 Kč</li>
+                <li>Mango sorbet: 55 Kč</li>
+                <li>Banánový dort: 75 Kč</li>
+                <li>Meruňkový koláč: 68 Kč</li>
+                <li>Pistáciová roláda: 78 Kč</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!------------------ KONTAKT ------------------>
+    <div id="contact">
+      <div class="container px-4 py-5" id="featured-3">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div>
+              <img src="./images/open.png" alt="open time icon">
+                <use xlink:href="#collection"></use>
+              </svg>
+            </div>
+            <h2>Otevírací doba</h2>
+            <p>
+              Pondělí - Pátek <br />
+              9:00 - 18:00<br />
+              Sobota - Neděle <br />
+              9:00 - 20:00
+            </p>
+          </div>
+          <div class="feature col">
+            <div>
+              <img src="./images/adress.png" alt="adress icon">
+            </div>
+            <h2>Adresa</h2>
+            <p>
+              Ulice Kavárenská 42<br />
+              Kávové Město <br />
+              500 04
+            </p>
+          </div>
+          <div class="feature col">
+            <div >
+              <img src="./images/contact.png" alt="adress icon">
+            </div>
+            <h2>Kontakt</h2>
+            <p>
+              Telefon:<br />
+              +420 123 456 789 <br />
+              Email:<br />
+              <a class="email" href="mailto:info@smyslela-kavarna.cz"
+                >info@smyslela-kavarna.cz</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!------------------ REZERVACE ------------------>
+      <form class="row gx-3 gy-2 align-items-center">
+        <h2 class="reservation">Rezervace</h2>
+        <div class="col-lg-3">
+          <label class="visually-hidden" for="specificSizeInputName"
+            >Name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="specificSizeInputName"
+            placeholder="Jméno a Příjmení"
+          />
+        </div>
+        <div class="col-lg-3">
+          <label class="visually-hidden" for="specificSizeInputGroupUsername"
+            >Username</label
+          >
+          <div class="input-group">
+            <div class="input-group-text">@</div>
+            <input
+              type="text"
+              class="form-control"
+              id="specificSizeInputGroupUsername"
+              placeholder="Email"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <label class="visually-hidden" for="specificSizeSelect"
+            >Preference</label
+          >
+          <select class="form-select" id="specificSizeSelect">
+            <option selected>Vyber...</option>
+            <option value="1">Rezervace</option>
+            <option value="2">Oslava</option>
+            <option value="3">Pronájem</option>
+          </select>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary">Odeslat</button>
+        </div>
+      </form>
+      <!-- konec divu container -->
+    </div>
+    <!------------------ FOOTER ------------------>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Café</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./images/facebook.png" alt="facebook link"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./images/instagram.png" alt="instagram link"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
